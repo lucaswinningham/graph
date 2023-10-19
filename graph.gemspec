@@ -5,6 +5,6 @@ Gem::Specification.new do |spec|
   spec.summary = 'Graph theory API'
   spec.authors = ['Lucas Winningham']
 
-  s.require_paths = ['lib']
-  s.files = ['lib/graph.rb']
+  spec.require_paths = ['lib']
+  spec.files = ['lib/graph.rb']
 end
