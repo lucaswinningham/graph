@@ -1,10 +1,10 @@
 Gem::Specification.new do |spec|
-  spec.name = "graph"
-  spec.version = "0.0.0"
-  spec.summary = "Graph theory API"
-  spec.description = "Graph theory API"
-  spec.authors = ["Lucas Winningham"]
-  spec.homepage = "https://github.com/lucaswinningham/graph"
+  spec.name = 'graph'
+  spec.version = '0.0.1'
+  spec.required_ruby_version = '>= 3.0.0'
+  spec.summary = 'Graph theory API'
+  spec.authors = ['Lucas Winningham']
 
-  spec.files = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
+  s.require_paths = ['lib']
+  s.files = ['lib/graph.rb']
 end
